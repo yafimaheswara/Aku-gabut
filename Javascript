@@ -1,0 +1,6 @@
+document.querySelector('a').addEventListener('mouseover', function() {
+         this.style.backgroundColor = '#0056b3';
+     });
+     document.querySelector('a').addEventListener('mouseout', function() {
+         this.style.backgroundColor = '#007BFF';
+     });
